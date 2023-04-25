@@ -19,21 +19,21 @@ widget:
 should probably proofread and complete it, then remove this comment. -->
 
 <p align="center" width="100%">
-    <a><img src="https://raw.githubusercontent.com/mbzuai-nlp/lamini/main/images/LaMnin.png" alt="Title" style="width: 100%; min-width: 300px; display: block; margin: auto;"></a>
+    <a><img src="https://raw.githubusercontent.com/mbzuai-nlp/lamini-lm/main/images/lamini.png" alt="Title" style="width: 100%; min-width: 300px; display: block; margin: auto;"></a>
 </p>
 
 # LaMini-Flan-T5-783M
 
 [![Model License](https://img.shields.io/badge/Model%20License-CC%20By%20NC%204.0-red.svg)]()
 
-This model is one of our LaMini model series in paper "[LaMini: A Diverse Herd of Distilled Models from Large-Scale Instructions](https://github.com/mbzuai-nlp/lamini)". This model is a fine-tuned version of [google/flan-t5-large](https://huggingface.co/google/flan-t5-large) on [LaMini dataset](https://huggingface.co/datasets/MBZUAI/LaMini-instruction) that contains 2.58M samples for instruction fine-tuning. For more information about our dataset, please refer to our [project repository](https://github.com/mbzuai-nlp/lamini/).  
-You can view other LaMini model series as follow. Note that not all models are performing as well. Models with ✩ are those with the best overall performance given their size/architecture. More details can be seen in our paper. 
+This model is one of our LaMini-LM model series in paper "[LaMini-LM: A Diverse Herd of Distilled Models from Large-Scale Instructions](https://github.com/mbzuai-nlp/lamini-lm)". This model is a fine-tuned version of [google/flan-t5-large](https://huggingface.co/google/flan-t5-large) on [LaMini-instruction dataset](https://huggingface.co/datasets/MBZUAI/LaMini-instruction) that contains 2.58M samples for instruction fine-tuning. For more information about our dataset, please refer to our [project repository](https://github.com/mbzuai-nlp/lamini-lm/).  
+You can view other LaMini-LM model series as follow. Note that not all models are performing as well. Models with ✩ are those with the best overall performance given their size/architecture. More details can be seen in our paper. 
 
 <table>
 <thead>
   <tr>
     <th>Base model</th>
-    <th colspan="4">LaMini series (#parameters)</th>
+    <th colspan="4">LaMini-LM series (#parameters)</th>
   </tr>
 </thead>
 <tbody>
@@ -110,10 +110,10 @@ print("Response": generated_text)
 ## Training Procedure
 
 <p align="center" width="100%">
-    <a><img src="https://raw.githubusercontent.com/mbzuai-nlp/lamini/main/images/lamini-pipeline.drawio.png" alt="Title" style="width: 100%; min-width: 250px; display: block; margin: auto;"></a>
+    <a><img src="https://raw.githubusercontent.com/mbzuai-nlp/lamini-lm/main/images/lamini-pipeline.drawio.png" alt="Title" style="width: 100%; min-width: 250px; display: block; margin: auto;"></a>
 </p>
 
-We initialize with [google/flan-t5-large](https://huggingface.co/google/flan-t5-large) and fine-tune it on our [LaMini dataset](https://huggingface.co/datasets/MBZUAI/LaMini-instruction). Its total number of parameters is 783M. 
+We initialize with [google/flan-t5-large](https://huggingface.co/google/flan-t5-large) and fine-tune it on our [LaMini-instruction dataset](https://huggingface.co/datasets/MBZUAI/LaMini-instruction). Its total number of parameters is 783M. 
 
 ### Training Hyperparameters
 
@@ -140,8 +140,8 @@ More information needed
 
 ```bibtex
 @misc{lamini,
-      title={LaMini: A Diverse Herd of Distilled Models from Large-Scale Instructions}, 
-      author={},
+      title={LaMini-LM: A Diverse Herd of Distilled Models from Large-Scale Instructions}, 
+      author={Minghao Wu and Abdul Waheed and Chiyu Zhang and Muhammad Abdul-Mageed and Alham Fikri Aji},
       year={2023},
       publisher = {GitHub},
       journal = {GitHub repository},
