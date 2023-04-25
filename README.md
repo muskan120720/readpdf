@@ -91,7 +91,7 @@ You can view other LaMini-LM model series as follow. Note that not all models ar
 ### Intended use
 We recommend using the model to response to human instructions written in natural language. 
 
-We now show you how to load and use our model using HuggingFace `pipline()`. 
+We now show you how to load and use our model using HuggingFace `pipeline()`.
 
 ```python
 # pip install -q transformers
@@ -99,12 +99,12 @@ from transformers import pipeline
 
 checkpoint = "{model_name}"
 
-model = pipeline('text2text-generation', model=checkpoint, use_auth_token=True, device=0)
+model = pipeline('text2text-generation', model = checkpoint)
 
 input_prompt = 'Please let me know your thoughts on the given place and why you think it deserves to be visited: \n"Barcelona, Spain"'
-generated_text = generator(input_prompt, max_length=512, do_sample=True)[0]['generated_text']
+generated_text = model(input_prompt, max_length=512, do_sample=True)[0]['generated_text']
 
-print("Response": generated_text)
+print("Response", generated_text)
 ```
 
 ## Training Procedure
