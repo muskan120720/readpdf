@@ -22,7 +22,7 @@ should probably proofread and complete it, then remove this comment. -->
     <a><img src="https://raw.githubusercontent.com/mbzuai-nlp/lamini/main/images/LaMnin.png" alt="Title" style="width: 100%; min-width: 300px; display: block; margin: auto;"></a>
 </p>
 
-# LaMini-FLAN-T5-783M
+# LaMini-Flan-T5-783M
 
 [![Model License](https://img.shields.io/badge/Model%20License-CC%20By%20NC%204.0-red.svg)]()
 
@@ -113,7 +113,7 @@ print("Response": generated_text)
     <a><img src="https://raw.githubusercontent.com/mbzuai-nlp/lamini/main/images/lamini-pipeline.drawio.png" alt="Title" style="width: 100%; min-width: 250px; display: block; margin: auto;"></a>
 </p>
 
-We initialize with [google/flan-t5-large](https://huggingface.co/google/flan-t5-large) and fine-tune it on our [LaMini dataset](https://huggingface.co/datasets/MBZUAI/LaMini-instruction). Its total number of parameters is 77M. 
+We initialize with [google/flan-t5-large](https://huggingface.co/google/flan-t5-large) and fine-tune it on our [LaMini dataset](https://huggingface.co/datasets/MBZUAI/LaMini-instruction). Its total number of parameters is 783M. 
 
 ### Training Hyperparameters
 
