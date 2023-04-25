@@ -145,5 +145,6 @@ More information needed
       year={2023},
       publisher = {GitHub},
       journal = {GitHub repository},
+      url = {https://github.com/mbzuai-nlp/LaMini-LM/}
 }
 ```
