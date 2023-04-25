@@ -27,7 +27,7 @@ should probably proofread and complete it, then remove this comment. -->
 [![Model License](https://img.shields.io/badge/Model%20License-CC%20By%20NC%204.0-red.svg)]()
 
 This model is one of our LaMini-LM model series in paper "[LaMini-LM: A Diverse Herd of Distilled Models from Large-Scale Instructions](https://github.com/mbzuai-nlp/lamini-lm)". This model is a fine-tuned version of [google/flan-t5-large](https://huggingface.co/google/flan-t5-large) on [LaMini-instruction dataset](https://huggingface.co/datasets/MBZUAI/LaMini-instruction) that contains 2.58M samples for instruction fine-tuning. For more information about our dataset, please refer to our [project repository](https://github.com/mbzuai-nlp/lamini-lm/).  
-You can view other LaMini-LM model series as follow. Note that not all models are performing as well. Models with ✩ are those with the best overall performance given their size/architecture. More details can be seen in our paper. 
+You can view other models of LaMini-LM series as follows. Models with ✩ are those with the best overall performance given their size/architecture, hence we recommend using them. More details can be seen in our paper. 
 
 <table>
 <thead>
