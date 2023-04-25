@@ -139,7 +139,7 @@ More information needed
 # Citation
 
 ```bibtex
-@misc{lamini,
+@misc{lamini-lm,
       title={LaMini-LM: A Diverse Herd of Distilled Models from Large-Scale Instructions}, 
       author={Minghao Wu and Abdul Waheed and Chiyu Zhang and Muhammad Abdul-Mageed and Alham Fikri Aji},
       year={2023},
