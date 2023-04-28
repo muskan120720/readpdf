@@ -139,12 +139,19 @@ More information needed
 # Citation
 
 ```bibtex
-@misc{lamini-lm,
-      title={LaMini-LM: A Diverse Herd of Distilled Models from Large-Scale Instructions}, 
-      author={Minghao Wu and Abdul Waheed and Chiyu Zhang and Muhammad Abdul-Mageed and Alham Fikri Aji},
-      year={2023},
-      publisher = {GitHub},
-      journal = {GitHub repository},
-      url = {https://github.com/mbzuai-nlp/LaMini-LM/}
+@article{lamini-lm,
+  author       = {Minghao Wu and
+                  Abdul Waheed and
+                  Chiyu Zhang and
+                  Muhammad Abdul-Mageed and
+                  Alham Fikri Aji
+                  },
+  title        = {LaMini-LM: A Diverse Herd of Distilled Models from Large-Scale Instructions},
+  journal      = {CoRR},
+  volume       = {abs/2304.14402},
+  year         = {2023},
+  url          = {https://arxiv.org/abs/2304.14402},
+  eprinttype   = {arXiv},
+  eprint       = {2304.14402}
 }
 ```
